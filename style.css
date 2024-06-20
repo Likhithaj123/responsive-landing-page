@@ -1,0 +1,81 @@
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #7221f5;
+    padding: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 10; /* Ensure menu stays on top */
+  }
+  
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-list li {
+    display: inline-block;
+    margin-right: 1rem;
+  }
+  
+  .nav-list li a {
+    text-decoration: none;
+    color: #333;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .nav-list li a:hover {
+    background-color: #e31717; /* Hover effect */
+  }
+  
+  
+  @media (max-width: 768px) {
+    .navigation {
+      flex-direction: column; 
+      align-items: flex-start;
+    }
+  
+    .nav-list li {
+      margin: 0.5rem 0;
+    }
+  }
+  .main{
+    
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(206, 184, 230);
+    padding: 300px;
+    font-size: larger;
+    font-style: oblique;
+    font-weight: bold;
+    color: #ed5b12;
+  }
+  .para{
+    font-style: italic;
+    color: rgb(244, 39, 172);
+    
+  }
+  
