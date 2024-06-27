@@ -1,2 +1,2 @@
 # responsive-landing-page
-#progidy inotech wd task-01
+#prodigy infotech wd task-01
